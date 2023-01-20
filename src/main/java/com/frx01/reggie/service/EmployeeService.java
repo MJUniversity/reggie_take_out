@@ -1,0 +1,8 @@
+package com.frx01.reggie.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.frx01.reggie.entity.Employee;
+import org.springframework.stereotype.Service;
+
+public interface EmployeeService extends IService<Employee> {
+}
